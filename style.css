@@ -193,7 +193,28 @@ ul {
     font-size: 1.5rem;
     font-weight: 300;
     opacity: 0.9;
-    margin-bottom: 48px;
+    margin-bottom: 24px;
+}
+
+.btn-notion {
+    display: inline-block;
+    background-color: var(--white);
+    color: var(--primary);
+    padding: 14px 28px;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-bottom: 32px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: var(--transition);
+}
+
+.btn-notion:hover {
+    background-color: var(--accent);
+    color: var(--primary-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
 }
 
 .hero-date {
