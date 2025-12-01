@@ -481,6 +481,30 @@ ul {
     margin-bottom: 0;
 }
 
+/* 후보자 인사말 (카드 내) */
+.candidate-greeting {
+    text-align: left;
+    margin-top: 16px;
+    padding: 16px;
+    background-color: #f0f7f4;
+    border-radius: var(--radius-sm);
+    border-left: 3px solid var(--primary);
+}
+
+.candidate-greeting .greeting-label {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 8px;
+}
+
+.candidate-greeting .greeting-text {
+    font-size: 0.9rem;
+    color: var(--text-sub);
+    line-height: 1.6;
+    font-style: italic;
+}
+
 .btn-outline {
     background: none;
     border: 2px solid var(--primary);
