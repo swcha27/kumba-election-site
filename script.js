@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (noticeBadge) noticeBadge.textContent = 'D-' + getDday(SCHEDULE.voteStart);
                 if (noticeTitle) noticeTitle.textContent = '후보자 확정 및 공약 공지';
                 if (noticeMainText) noticeMainText.innerHTML = '제3대 회장단 입후보자가 확정되었습니다.<br>각 후보자의 비전과 공약을 확인하고, <strong>12월 13일 오전 9시부터</strong> 진행되는 온라인 투표에 참여해 주세요.';
-                if (noticeVoteInfo) noticeVoteInfo.innerHTML = '⏰ <strong>투표 예정:</strong> 12월 13일(토) 09:00 ~ 12월 20일(토) 16:00<br>📧 등록된 이메일로 투표 링크가 발송됩니다.';
+                if (noticeVoteInfo) noticeVoteInfo.innerHTML = '⏰ <strong>투표 예정:</strong> 12월 13일(토) 09:00 ~ 12월 20일(토) 16:00<br>📱 카카오톡 또는 문자로 투표 링크가 발송됩니다.';
 
                 if (timelineCampaign) timelineCampaign.classList.add('active');
                 if (timelineVoteTitle) timelineVoteTitle.textContent = '투표 시작';
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (noticeMainText) noticeMainText.innerHTML = '제3대 KUMBA 총동문회 회장단 <strong>온라인 투표가 진행 중</strong>입니다!<br>아래 후보자들의 비전과 공약을 확인하시고, <strong>12월 20일(토) 16시 마감 전까지</strong> 소중한 한 표를 행사해 주세요.';
                 if (noticeVoteInfo) {
                     noticeVoteInfo.style.background = '#e8f5e9';
-                    noticeVoteInfo.innerHTML = '📧 <strong>투표 방법:</strong> 등록된 이메일로 발송된 투표 링크를 통해 투표해 주세요.<br>⏰ <strong>마감:</strong> 12월 20일(토) 오후 4시 | 문의: 2019kumba@gmail.com';
+                    noticeVoteInfo.innerHTML = '📱 <strong>투표 방법:</strong> 카카오톡 또는 문자로 발송된 투표 링크를 통해 투표해 주세요.<br>⏰ <strong>마감:</strong> 12월 20일(토) 오후 4시 | 문의: 2019kumba@gmail.com';
                 }
 
                 if (timelineCampaign) timelineCampaign.classList.add('done');
