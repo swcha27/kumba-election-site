@@ -59,8 +59,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (heroValue1) heroValue1.textContent = '12.01 - 12.12';
                 
                 if (noticeBadge) noticeBadge.textContent = 'D-' + getDday(SCHEDULE.voteStart);
-                if (noticeTitle) noticeTitle.textContent = '후보자 확정 및 공약 공지';
-                if (noticeMainText) noticeMainText.innerHTML = '제3대 회장단 입후보자가 확정되었습니다.<br>각 후보자의 비전과 공약을 확인하고, <strong>12월 13일 오전 9시부터</strong> 진행되는 온라인 투표에 참여해 주세요.';
+                if (noticeTitle) noticeTitle.textContent = '후보자 공약 안내';
+                if (noticeMainText) noticeMainText.innerHTML = '제3대 회장단 후보자들의 비전과 공약을 확인해 주세요.<br><strong>12월 13일 오전 9시부터</strong> 온라인 투표가 시작됩니다. 소중한 한 표를 행사해 주세요!';
                 if (noticeVoteInfo) noticeVoteInfo.innerHTML = '⏰ <strong>투표 예정:</strong> 12월 13일(토) 09:00 ~ 12월 20일(토) 16:00<br>📱 카카오톡 또는 문자로 투표 링크가 발송됩니다.';
 
                 if (timelineCampaign) timelineCampaign.classList.add('active');
