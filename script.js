@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
         switch (phase) {
             case 'campaign':
                 // 선거운동 기간 (12.01 ~ 12.13 09:00 전)
-                if (heroStatus) heroStatus.textContent = '회장단 후보자 확정 공지';
+                if (heroStatus) heroStatus.textContent = '회장단 후보자 공약 안내';
                 if (heroSubtitle) heroSubtitle.textContent = '새로운 도약, 함께하는 미래';
                 if (heroLabel1) heroLabel1.textContent = '선거운동';
                 if (heroValue1) heroValue1.textContent = '12.01 - 12.12';
