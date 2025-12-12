@@ -83,17 +83,17 @@
 
                 <span class="badge fade-in">제3대</span>
 
-                <h1 class="hero-title fade-in delay-1">KUMBA 총동문회<br>회장단 온라인 투표 진행 중</h1>
+                <h1 class="hero-title fade-in delay-1" id="hero-title">KUMBA 총동문회<br><span id="hero-status">회장단 선거</span></h1>
 
-                <p class="hero-subtitle fade-in delay-2">소중한 한 표로 KUMBA의 미래를 결정해 주세요!</p>
+                <p class="hero-subtitle fade-in delay-2" id="hero-subtitle">새로운 도약, 함께하는 미래</p>
 
                 <div class="hero-date fade-in delay-3">
 
                     <div class="date-item">
 
-                        <span class="label">🗳️ 투표 진행 중</span>
+                        <span class="label" id="hero-label-1">투표기간</span>
 
-                        <span class="value">12.13 - 12.20</span>
+                        <span class="value" id="hero-value-1">12.13(09시) - 12.20(16시)</span>
 
                     </div>
 
@@ -101,9 +101,9 @@
 
                     <div class="date-item">
 
-                        <span class="label">당선자 발표</span>
+                        <span class="label" id="hero-label-2">당선자 발표</span>
 
-                        <span class="value">12.20 정기총회</span>
+                        <span class="value" id="hero-value-2">12.20 정기총회</span>
 
                     </div>
 
@@ -121,22 +121,22 @@
 
                 <h2 class="section-title">📢 주요 공지</h2>
 
-                <div class="notice-card">
+                <div class="notice-card" id="notice-card">
 
                     <div class="notice-header">
 
-                        <span class="notice-badge">🗳️ 투표 진행 중</span>
+                        <span class="notice-badge" id="notice-badge">선거 안내</span>
 
-                        <span class="notice-date">2025.12.13 ~ 12.20</span>
+                        <span class="notice-date" id="notice-date">2025.12.13 ~ 12.20</span>
 
                     </div>
 
-                    <div class="notice-content">
+                    <div class="notice-content" id="notice-content">
 
-                        <h3>온라인 투표 안내</h3>
+                        <h3 id="notice-title">선거 안내</h3>
 
-                        <p>제3대 KUMBA 총동문회 회장단 <strong>온라인 투표가 진행 중</strong>입니다!<br>아래 후보자들의 비전과 공약을 확인하시고, <strong>12월 20일 정기총회 당선인 발표 전까지</strong> 소중한 한 표를 행사해 주세요.</p>
-                        <p style="font-size: 0.95rem; margin-top: 16px; padding: 12px; background: #e8f5e9; border-radius: 8px;">📧 <strong>투표 방법:</strong> 등록된 이메일로 발송된 투표 링크를 통해 투표해 주세요.<br>문의: 2019kumba@gmail.com</p>
+                        <p id="notice-main-text">제3대 KUMBA 총동문회 회장단 선거가 진행됩니다.</p>
+                        <p id="notice-vote-info" style="font-size: 0.95rem; margin-top: 16px; padding: 12px; background: #e8f5e9; border-radius: 8px;">📧 <strong>투표 방법:</strong> 등록된 이메일로 발송된 투표 링크를 통해 투표해 주세요.<br>문의: 2019kumba@gmail.com</p>
                         <p style="font-size: 0.9rem; margin-top: 12px;">📍 <strong>12월 20일(토) 행사 장소 안내</strong><br>정기총회: 스타시티아트홀 5F 혼주룸 (16:00~)<br>홈커밍데이: 스타시티아트홀 5F 연회장 (18:00~)</p>
 
                     </div>
@@ -540,7 +540,7 @@
 
                     </div>
 
-                    <div class="timeline-item done">
+                    <div class="timeline-item" id="timeline-campaign" data-date="2025-12-01T00:00:00">
 
                         <div class="timeline-dot"></div>
 
@@ -548,7 +548,7 @@
 
                         <div class="timeline-content">
 
-                            <h4>후보자 확정</h4>
+                            <h4 id="timeline-campaign-title">후보자 확정</h4>
 
                             <p>공약 공지 및 선거운동 시작</p>
 
@@ -556,7 +556,7 @@
 
                     </div>
 
-                    <div class="timeline-item active">
+                    <div class="timeline-item" id="timeline-vote" data-date="2025-12-13T09:00:00">
 
                         <div class="timeline-dot"></div>
 
@@ -564,15 +564,15 @@
 
                         <div class="timeline-content">
 
-                            <h4>🗳️ 투표 진행 중</h4>
+                            <h4 id="timeline-vote-title">투표 시작</h4>
 
-                            <p>온라인 투표 (12.13 ~ 12.20)</p>
+                            <p>온라인 투표 (12.13 09시 ~ 12.20 16시)</p>
 
                         </div>
 
                     </div>
 
-                    <div class="timeline-item">
+                    <div class="timeline-item" id="timeline-result" data-date="2025-12-20T16:00:00">
 
                         <div class="timeline-dot"></div>
 
@@ -580,9 +580,9 @@
 
                         <div class="timeline-content">
 
-                            <h4>개표/발표</h4>
+                            <h4 id="timeline-result-title">개표/발표</h4>
 
-                            <p>정기총회 당선자 발표</p>
+                            <p>정기총회 당선자 발표 (16시)</p>
                             <p style="font-size: 0.85rem; color: #666; margin-top: 4px;">📍 정기총회: 스타시티아트홀 5F 혼주룸<br>📍 홈커밍데이: 스타시티아트홀 5F 연회장</p>
 
                         </div>
